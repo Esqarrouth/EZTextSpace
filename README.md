@@ -1,2 +1,11 @@
 # EZText.Space
-:speech_balloon: Create walkthroughs and speech bubbles with human assistants
+
+-![demo](1.gif)
+
+-![demo](2.gif)
+
+###Install:
+
+-Drag and drop EZTextSpace.swift in your project. 
+
+Pods, examples, readme, new features coming soon..
