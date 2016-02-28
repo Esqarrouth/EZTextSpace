@@ -15,35 +15,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         backgroundImage.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight)
         view.addSubview(backgroundImage)
-        
     }
-    
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-     
-        
-
-        
-        
         mainLoop()
-
-        //
-        //            EZMortyView.show("Donald Trump", text: "We need to kick doctors out of the country!", image: UIImage(named: "trump")!, imageLocation: EZMortyImageStartLocation.TopOfText, onClick: { () -> () in
-        //                EZMortyView.hide()
-        //
-        //                EZMortyView.show("Gandalf", text: "Come here little hobbit, I have a task for you. You see this ring, you need to destroy it.", image: UIImage(named: "gandalf")!, imageLocation: EZMortyImageStartLocation.BottomOfScreen, onClick: { () -> () in
-        //                    EZMortyView.hide()
-        //                })
-        //                
-        //            })
-        //        }
-
     }
-    
     
     func mainLoop() {
         switch currentIndex {
@@ -137,9 +116,6 @@ class ViewController: UIViewController {
 //    
 //    Ad blocker that blocks a site's ability to recognize you're using an ad blocker and also blocks the guilt trip pop-up.
 
-
-    
-    
     func standardCompletionBlock() {
         if EZTextSpace.hide() {
             currentIndex++
