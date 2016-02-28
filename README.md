@@ -1,8 +1,8 @@
 # EZText.Space
 
--![demo](11.gif)
+![demo](g1.gif)
 
--![demo](222.gif)
+![demo](g2.gif)
 
 ## Easy to use:
 ```swift
