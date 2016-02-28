@@ -59,6 +59,8 @@ import EZTextSpace
 - More customization
 - Pod support 
 - More examples
+- Update without resetting the view
+- Option to allow the background app to be clicked
 - Horizontal option
 - Show the person at the right option
 - OSX compatibility
