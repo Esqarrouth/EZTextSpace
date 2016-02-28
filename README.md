@@ -6,7 +6,11 @@
 
 ## Easy to use:
 ```swift
-EZTextSpace.show("Doctor Amy", text: "Hello my name is Doctor Amy, I will show you how to use this library.", image: UIImage(named: "doctor")!, imageLocation: EZTextSpaceImageStartLocation.TopOfBlack, onClick: { () -> () in
+let name = "Doctor Amy"
+let text = "Hello my name is Doctor Amy, I will show you how to use this library."
+let image = UIImage(named: "doctor")!
+let imageLocation = EZTextSpaceImageStartLocation.TopOfBlack
+EZTextSpace.show(name, text: text, image: image, imageLocation: imageLocation, onClick: { () -> () in
    EZTextSpace.hide() 
 })
 ```
