@@ -1,8 +1,10 @@
 # EZText.Space
 
--![demo](11.gif)
+Website: http://eztext.space
 
--![demo](222.gif)
+![demo](g1.gif)
+
+![demo](g2.gif)
 
 ## Easy to use:
 ```swift
