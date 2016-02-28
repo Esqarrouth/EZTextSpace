@@ -16,7 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         backgroundImage.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight)
+        backgroundImage.image = UIImage(named: "whatsapp")!
         view.addSubview(backgroundImage)
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -48,11 +53,11 @@ class ViewController: UIViewController {
             self.backgroundImage.image = UIImage(named: "launch")!
             self.standardCompletionBlock()
         })
-        case 6: EZTextSpace.show("Doctor Amy", text: "This library was developed in the Launch Hackathon. Use it!", image: UIImage(named: "doctor")!, imageLocation: EZTextSpaceImageStartLocation.TopOfBlack, onClick: { () -> () in
+        case 6: EZTextSpace.show("Doctor Amy", text: "This library was developed in the Launch Hackathon. Use it! Star it!", image: UIImage(named: "doctor")!, imageLocation: EZTextSpaceImageStartLocation.TopOfBlack, onClick: { () -> () in
             self.standardCompletionBlock()
         })
-        case 7: EZTextSpace.show("Doctor Amy", text: "Now I'll show you some cool use cases. 😎", image: UIImage(named: "doctor")!, imageLocation: EZTextSpaceImageStartLocation.TopOfBlack, onClick: { () -> () in
-            self.backgroundImage.image = nil
+        case 7: EZTextSpace.show("Doctor Amy", text: "Check the next gif for some cool use cases. 😎", image: UIImage(named: "doctor")!, imageLocation: EZTextSpaceImageStartLocation.TopOfBlack, onClick: { () -> () in
+            self.backgroundImage.image = UIImage(named: "back")!
             self.standardCompletionBlock()
         })
         case 8: EZTextSpace.show("Gandalf the Gray", text: "Run little hobbit, I will hold the Balrog, run and destroy the ring!", image: UIImage(named: "gandalf")!, imageLocation: EZTextSpaceImageStartLocation.BottomOfScreen, onClick: { () -> () in
@@ -79,7 +84,7 @@ class ViewController: UIViewController {
         case 15: EZTextSpace.show("Donald Trump", text: "Did you say Android??? We need to kick them out of the country.", image: UIImage(named: "trump1")!, imageLocation: EZTextSpaceImageStartLocation.TopOfBlack, onClick: { () -> () in
             self.standardCompletionBlock()
         })
-        default: currentIndex = 0; mainLoop()
+        default: currentIndex = 0; backgroundImage.image = UIImage(named: "whatsapp")!;  mainLoop()
         }
         print(currentIndex)
     }
