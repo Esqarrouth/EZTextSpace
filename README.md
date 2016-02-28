@@ -2,9 +2,11 @@
 
 Website: http://eztext.space
 
-![demo](g1.gif)
+![demo](e1.gif)
 
-![demo](g2.gif)
+![demo](e2.gif)
+
+![demo](e3.gif)
 
 ## Easy to use:
 ```swift
@@ -73,6 +75,12 @@ import EZTextSpace
 
 ##License
 EZTextSpace is available under the MIT license. See the [LICENSE file](https://github.com/goktugyil/EZText.Space/blob/master/LICENSE).
+
+##Other Fun Gifs
+
+![demo](g1.gif)
+
+![demo](g2.gif)
 
 ##Keywords
 swift, text, message, conversation, speech, dialog, dialogue, rpg, jrpg, game, rick and morty,
