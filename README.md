@@ -1,6 +1,4 @@
-# EZText.Space
-
-Website: http://eztext.space
+# EZTextSpace
 
 ![demo](e1.gif)
 
@@ -74,7 +72,7 @@ import EZTextSpace
 - OSX compatibility
 
 ##License
-EZTextSpace is available under the MIT license. See the [LICENSE file](https://github.com/goktugyil/EZText.Space/blob/master/LICENSE).
+EZTextSpace is available under the MIT license. See the [LICENSE file](https://github.com/goktugyil/EZTextSpace/blob/master/LICENSE).
 
 ##Other Fun Gifs
 
