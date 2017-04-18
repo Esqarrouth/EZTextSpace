@@ -33,7 +33,7 @@ EZTextSpace.Settings.textSpeed = 0.5 // Characters per second
 ## No object tracking:
 EZTextSpace is a singleton object so you don't need to keep track of its instance or anything. Just show than hide.  
 
-##Installation (~10 seconds)
+## Installation (~10 seconds)
 
 1. Download and drop 'EZTextSpace.swift' in your project.  
 2. Congratulations!  
@@ -55,12 +55,12 @@ Then on the top of files where you are going to use this:
 import EZTextSpace
 ```
 
-##Requirements
+## Requirements
 
 - Xcode 6 or later (Tested on 7.2)
 - iOS 7 or later (Tested on 9.2)
 
-##Possible features
+## Possible features
 
 - More customization
 - Pod support 
@@ -71,14 +71,14 @@ import EZTextSpace
 - Show the person at the right option
 - OSX compatibility
 
-##License
+## License
 EZTextSpace is available under the MIT license. See the [LICENSE file](https://github.com/goktugyil/EZTextSpace/blob/master/LICENSE).
 
-##Other Fun Gifs
+## Other Fun Gifs
 
 ![demo](g1.gif)
 
 ![demo](g2.gif)
 
-##Keywords
+## Keywords
 swift, text, message, conversation, speech, dialog, dialogue, rpg, jrpg, game, rick and morty,
